@@ -1,0 +1,19 @@
+# 1. 가상환경 및 시스템 파일 무시
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+
+# 2. 결과 텍스트 파일 무시
+result*.txt
+
+# 3. 다운로드 폴더 통째로 무시
+downloads/
+
+# 4. 모델 데이터: 폴더는 살리고 내용물만 무시
+model_data/*
+!model_data/.gitkeep
